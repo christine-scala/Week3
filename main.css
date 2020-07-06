@@ -11,4 +11,6 @@ p {
 
 .rainyday--CouchPotato {
       background-color: black;
+      outline: 4px solid;
+      outline-offset: 12px;
   }
