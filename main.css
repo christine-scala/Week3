@@ -1,0 +1,14 @@
+.rainyday {
+    color: burlywood;
+}
+p {
+    border-top: solid rgb(192, 255, 236) 3px;
+    border-right: solid rgb(192, 255, 236) 3px;
+    border-bottom: solid rgb(192, 255, 236) 3px;
+    border-left: solid rgb(192, 255, 236) 3px;
+    margin: auto;
+  }
+
+.rainyday--CouchPotato {
+      background-color: black;
+  }
