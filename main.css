@@ -10,6 +10,13 @@ p {
     margin: auto;
   }
 
+  ul {
+    position: absolute;
+    color: black;
+    left: 0px;
+    top: 150px;
+  }
+
 .rainyday--CouchPotato {
       background-color: black;
       outline: 4px solid;
