@@ -1,0 +1,31 @@
+.rainyday {
+    color: burlywood;
+}
+p {
+    position:absolute;
+    border-top: solid rgb(192, 255, 236) 3px;
+    border-right: solid rgb(192, 255, 236) 3px;
+    border-bottom: solid rgb(192, 255, 236) 3px;
+    border-left: solid rgb(192, 255, 236) 3px;
+    margin: auto;
+  }
+
+  ul {
+    position: absolute;
+    color: black;
+    left: 0px;
+    top: 150px;
+  }
+
+.rainyday--CouchPotato {
+      background-color: black;
+      outline: 4px solid;
+      outline-offset: 12px;
+  }
+
+  img {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: -1;
+  }
