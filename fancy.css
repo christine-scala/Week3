@@ -1,0 +1,14 @@
+
+.button {
+    text-align: center;
+    padding: 10px 24px;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+    font-size: 18px;
+} 
+
+/*when you hover over text it will turn blueviolet*/
+.button:hover {
+    background-color: blueviolet;
+    color:lavenderblush;
+  }
