@@ -1,0 +1,31 @@
+
+.button {
+    text-align: center;
+    padding: 10px 24px;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+    font-size: 18px;
+    background-color: blueviolet;
+    
+} 
+
+/*when you hover over text it will turn blueviolet*/
+.button:hover {
+    color:lavenderblush;
+  }
+
+  /* animation code */
+@keyframes learning {
+    from {background-color: orchid;}
+    to {background-color: lemonchiffon;}
+  }
+
+  div {
+    width: 400px;
+    height: 75px;
+    background-color:orchid;
+    animation-name: learning;
+    animation-duration: 8s;
+    animation-delay: 2s
+    animation-iteration-count: 2
+  }
