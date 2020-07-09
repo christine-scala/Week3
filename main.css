@@ -1,7 +1,7 @@
 .rainyday {
     color: burlywood;
 }
-p {
+#bordered {
     position:absolute;
     border-top: solid rgb(192, 255, 236) 3px;
     border-right: solid rgb(192, 255, 236) 3px;
@@ -29,3 +29,24 @@ p {
     top: 150px;
     z-index: -1;
   }
+   
+  
+
+  .box {
+    margin-top:400px;
+    float: left;
+  }
+  
+  .left {
+    width: 48%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
