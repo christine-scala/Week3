@@ -1,13 +1,27 @@
+.pooh {
+  background-image: url(https://en.wikipedia.org/wiki/File:Eeyore.gif);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .rainyday {
     color: burlywood;
 }
-p {
+#bordered {
     position:absolute;
     border-top: solid rgb(192, 255, 236) 3px;
     border-right: solid rgb(192, 255, 236) 3px;
     border-bottom: solid rgb(192, 255, 236) 3px;
     border-left: solid rgb(192, 255, 236) 3px;
     margin: auto;
+  }
+
+  .img-hover-zoom:hover img {
+    height: 300px; 
+    overflow: hidden;
+    transition: transform .5s ease;
+    transform: scale(1.5);
   }
 
   ul {
@@ -29,3 +43,24 @@ p {
     top: 150px;
     z-index: -1;
   }
+   
+  
+
+  .box {
+    margin-top:400px;
+    float: left;
+  }
+  
+  .left {
+    width: 48%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
+  }
+
