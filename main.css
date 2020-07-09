@@ -1,3 +1,10 @@
+.pooh {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ756VMlVU3OFR06KPcllGdp7IWveWAVwYQOQ&usqp=CAU);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .rainyday {
     color: burlywood;
 }
@@ -45,7 +52,7 @@
     width: 50%;
   }
   @media screen and (max-width: 600px) {
-    .column {
+    .box {
       width: 100%;
     }
   }
