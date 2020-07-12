@@ -1,10 +1,11 @@
+html {background-color: black}
+
 #pooh {
   width: 50%;
   height: 100%;
   position: absolute;
   right: 0px;
-  
-  
+   
 }
 
 .rainyday {
@@ -19,22 +20,25 @@
     margin: auto;
   }
 
-  .img-hover-zoom:hover img {
+  .img-hover-zoom:hover img{
     height: 300px; 
     overflow: hidden;
     transition: transform .5s ease;
     transform: scale(1.5);
+    
   }
 
   ul {
     position: absolute;
     color: black;
+    font-weight: bold;
     left: 0px;
     top: 150px;
+    
   }
 
 .rainyday--CouchPotato {
-      background-color: black;
+      background-color: rgb(58, 58, 80);
       outline: 4px solid;
       outline-offset: 12px;
   }
@@ -64,5 +68,3 @@
     .box {
       width: 100%;
     }
-  }
-
