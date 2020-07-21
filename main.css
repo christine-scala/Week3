@@ -1,53 +1,87 @@
-.eeyore {
-  background-image: url(https://en.wikipedia.org/wiki/File:Eeyore.gif);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
+html {background-color: black}
+
+#pooh {
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 0px;
+  width: 45vw;
+  height: auto;
+  z-index: -1;
+  text-align: right;
 }
 
 .rainyday {
-    color: burlywood;
+  color: burlywood;
 }
-#bordered {
-    position:absolute;
-    border-top: solid rgb(192, 255, 236) 3px;
-    border-right: solid rgb(192, 255, 236) 3px;
-    border-bottom: solid rgb(192, 255, 236) 3px;
-    border-left: solid rgb(192, 255, 236) 3px;
-    margin: auto;
-  }
 
-  .img-hover-zoom:hover img {
-    height: 300px; 
-    overflow: hidden;
-    transition: transform .5s ease;
-    transform: scale(1.5);
-  }
-
-  ul {
-    position: absolute;
-    color: black;
-    left: 0px;
-    top: 150px;
-  }
+#size{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 170px;
+}
 
 .rainyday--CouchPotato {
-      background-color: black;
-      outline: 4px solid;
-      outline-offset: 12px;
+  background-color: rgb(58, 58, 80);
+  outline: 4px solid;
+  outline-offset: 12px;
+}
+
+#bordered {
+  font-size:20px;
+  margin-top: 30vw;
+  border-top: solid rgb(192, 255, 236) 3px;
+  border-right: solid rgb(192, 255, 236) 3px;
+  border-bottom: solid rgb(192, 255, 236) 3px;
+  border-left: solid rgb(192, 255, 236) 3px;
+  margin: auto;
+}
+
+.container{
+  width: 100vw;
+    margin:auto;
+    text-align: left;
   }
 
-  img {
-    position: absolute;
-    left: 0px;
-    top: 150px;
+  /*
+  images {
+    width: 20vw;
+    height: auto;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
     z-index: -1;
   }
-   
+  */
+
+#fraggle {
+  position: absolute;
+  margin-top: 10px;
+  padding-top: 10px;
+  top: 200px;
+  z-index: -1;
+}
+
+ul {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  left: 0px;
+  top: 100px;
   
+}
+
+.img-hover-zoom:hover img{
+  text-align: right;  
+  height: 20vw; 
+  overflow: hidden;
+  transition: transform .5s ease;
+  transform: scale(1.5);
+    
+  }
 
   .box {
-    margin-top:400px;
+    margin-top:200px;
     float: left;
   }
   
@@ -62,5 +96,3 @@
     .box {
       width: 100%;
     }
-  }
-
